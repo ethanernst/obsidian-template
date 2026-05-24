@@ -1,0 +1,13 @@
+# Workspace state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Plugin code — reinstall from the community store on each device
+.obsidian/plugins/*/*
+!.obsidian/plugins/*/data.json
+
+# macOS
+.DS_Store
+
+# Obsidian cache
+.obsidian/cache

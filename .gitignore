@@ -1,13 +1,1 @@
-# Obsidian workspace state (device-specific, don't sync via git)
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-
-# Plugin runtime data (installed separately per device)
-.obsidian/plugins/*/*
-!.obsidian/plugins/*/data.json
-
-# macOS
 .DS_Store
-
-# Obsidian cache
-.obsidian/cache
