@@ -1,0 +1,22 @@
+filters:
+  and:
+    - file.inFolder("3 Projects")
+    - type == "project"
+properties:
+  file.name:
+    displayName: Name
+views:
+  - type: table
+    name: All Projects
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - priority
+      - due
+      - source
+    columnSize:
+      file.name: 291
+      note.priority: 127
+      note.due: 215

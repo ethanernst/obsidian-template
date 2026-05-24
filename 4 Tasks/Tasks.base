@@ -1,0 +1,29 @@
+filters:
+  and:
+    - or:
+        - file.inFolder("4 Tasks")
+        - file.inFolder("3 Projects")
+    - type == "task"
+    - status != "done"
+    - status != "cancelled"
+properties:
+  file.name:
+    displayName: Name
+views:
+  - type: table
+    name: All Tasks
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - priority
+      - due
+      - project
+    sort:
+      - property: priority
+        direction: ASC
+    columnSize:
+      file.name: 291
+      note.priority: 127
+      note.due: 215

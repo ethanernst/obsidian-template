@@ -1,0 +1,24 @@
+filters:
+  and:
+    - file.inFolder("5 Ideas")
+    - type == "idea"
+    - status != "shelved"
+properties:
+  file.name:
+    displayName: Name
+views:
+  - type: table
+    name: Ideas
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - priority
+      - created
+    sort:
+      - property: created
+        direction: ASC
+    columnSize:
+      file.name: 201
+      note.priority: 264

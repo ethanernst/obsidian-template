@@ -1,0 +1,9 @@
+{
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./Assets",
+  "useMarkdownLinks": false,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "propertiesInDocument": "hidden",
+  "defaultViewMode": "source"
+}
